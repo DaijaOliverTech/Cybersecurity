@@ -1,0 +1,63 @@
+<h3>Tools Used</h3>
+<ul>
+  <li>OWASP Juice Shop (vulnerable test application)</li>
+  <li>OWASP ZAP (vulnerability scanner)</li>
+  <li>Wireshark (network packet analysis)</li>
+  <li>Burp Suite Community Edition (manual testing)</li>
+  <li>Kali Linux (penetration testing environment)</li>
+  <li>ServiceNow / JIRA (simulated ticket tracking)</li>
+</ul>
+
+<h3>Methodology</h3>
+<h4>1. Preparation</h4>
+<ul>
+  <li>Created a virtual lab with Juice Shop deployed on localhost.</li>
+  <li>Reviewed OWASP Top 10 to understand common web vulnerabilities.</li>
+  <li>Defined incident response roles and documentation workflow.</li>
+</ul>
+
+<h4>2. Vulnerability Assessment</h4>
+<ul>
+  <li>Scanned Juice Shop using OWASP ZAP.</li>
+  <li>Discovered vulnerabilities including XSS, SQL Injection, and improper authentication.</li>
+  <li>Prioritized findings using CVSS scores and created a risk matrix.</li>
+</ul>
+
+<h4>3. Detection and Analysis</h4>
+<ul>
+  <li>Simulated a credential stuffing attack based on discovered vulnerabilities.</li>
+  <li>Monitored logs and network traffic using Wireshark.</li>
+  <li>Documented IOC (Indicators of Compromise) and attack timeline.</li>
+</ul>
+
+<h4>4. Containment, Eradication, and Recovery</h4>
+<ul>
+  <li>Contained the incident by disabling affected services.</li>
+  <li>Patched identified vulnerabilities and reconfigured authentication mechanisms.</li>
+  <li>Validated fixes through rescanning and log review.</li>
+</ul>
+
+<h4>5. Post-Incident Activity</h4>
+<ul>
+  <li>Conducted a lessons-learned meeting (documented).</li>
+  <li>Proposed updated WAF rules, regular scanning schedules, and team training.</li>
+  <li>Documented and archived the entire incident lifecycle in a simulated ServiceNow instance.</li>
+</ul>
+
+<h3>Deliverables</h3>
+<ul>
+  <li>Vulnerability scan report (OWASP ZAP)</li>
+  <li>Incident response timeline and logs</li>
+  <li>IOC list and network traffic captures</li>
+  <li>Remediation plan</li>
+  <li>Lessons-learned report</li>
+</ul>
+
+<h3>Skills Demonstrated</h3>
+<ul>
+  <li>Web vulnerability scanning and triage</li>
+  <li>Incident detection and forensic analysis</li>
+  <li>Communication of technical findings</li>
+  <li>Risk-based prioritization</li>
+  <li>Use of cybersecurity frameworks (NIST SP 800-61r2, OWASP WSTG)</li>
+</ul>
